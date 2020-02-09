@@ -1,0 +1,116 @@
+/* Main CSS Start */
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+body{
+	font-family: sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+a:focus, input:focus, teaxarea:focus, button:focus{outline: 0 solid;}
+a:hover{
+	text-decoration: none;
+}
+.section-padding{padding: 80px 0;}
+/* Main CSS Stop */
+/* === Footer Section CSS Start === */
+	/* Footer Top Area CSS Code */
+.styled-bg-1{background-image: url(../img/bg-1.jpg);}
+.footer-top-area {
+  background-color: #f4f4f4;
+  padding: 60px 0;
+  color: #777;
+}
+.footer-top-area h2 {
+  color: #333;
+  font-size: 35px;
+}
+.newsletter-form input[type="email"] {
+  background: none;
+  border: none;
+  padding: 10px 15px;
+  width: 60%;
+}
+.newsletter-form input[type="email"] {
+  border-bottom: 2px solid #ddd;
+}
+.newsletter-form button {
+  border: none;
+  background: none;
+  padding: 10px 15px;
+  color: #333;
+  float: right;
+  width: 30%;
+}
+.newsletter-form button {
+  border-bottom: 2px solid #c2ab64;
+}
+.newsletter-form {
+  margin-top: 12px;
+  margin-left: 30px;
+}
+.footer-top-area {
+  margin-top: 200px;
+}
+	/* Footer Bottom Area CSS code */
+.footer-menu ul {
+  margin: 0;
+  list-style: none;
+}
+.footer-menu ul li {
+  display: inline-block;
+}
+.footer-menu ul li a {
+  display: block;
+  padding-left: 30px;
+  color: #333;
+}
+.social-links a {
+	color: #333;
+	padding: 0 3px;
+	display: inline-block;
+}
+.footer-menu {
+  margin-bottom: 22px;
+  margin-top: 34px;
+}
+.copyright-text {
+  margin-top: 34px;
+}
+	/* Styled BG CSS Code */
+.styled-bg-inner {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+}
+.styled-bg {
+  height: 430px;
+  position: absolute;
+  width: 400px;
+  left: -220px;
+  bottom: 0;
+  z-index: 2;
+}
+.footer-bottom-area .container {
+  position: relative;
+}
+.styled-bg:after {
+  content: "";
+  position: absolute;
+  left: -40px;
+  bottom: -40px;
+  height: 100%;
+  width: 100%;
+  background-color: #f4f4f4;
+  z-index: -1;
+}
+/* === Footer Section CSS Stop === */
